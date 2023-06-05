@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Simple Calculator</title>
+ <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+ <div class="calculator">
+  <div class="display">
+   <input type="text" id="result" placeholder="0">
+   <button onclick="clearResult()" style="background-color: rgb(239, 78, 123); border-radius: 5px; margin-left: 20px; padding: 17px; color: white;">C</button>
+  </div>
+  <div class="buttons">
+   <button onclick="insert('1')">1</button>
+   <button onclick="insert('2')">2</button>
+   <button onclick="insert('3')">3</button>
+   <button onclick="insert('/')">/</button>
+   <button onclick="insert('4')">4</button>
+   <button onclick="insert('5')">5</button>
+   <button onclick="insert('6')">6</button>
+   <button onclick="insert('-')">-</button>
+   <button onclick="insert('7')">7</button>
+   <button onclick="insert('8')">8</button>
+   <button onclick="insert('9')">9</button>
+   <button onclick="insert('+')">+</button>
+   <button onclick="insert('.')">.</button>
+   <button onclick="insert('0')">0</button>
+   <button onclick="calculate()" style="background-color: rgb(239, 78, 123);">=</button>
+   <button onclick="insert('*')">*</button>
+   
+  </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
